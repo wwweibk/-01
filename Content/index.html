@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page</title>
+  <link rel="stylesheet" href="../Style/indexstyle.css">
+  <link rel="script" href="../Script/indexscript.js">
+
+</head>
+<body>
+  <header>
+    <img src="../Media/test-logo.png" class="test-logo1">
+    <nav>
+      <ul>
+        <li><a href="#"><b>Главная</b></a></li>
+        <li><button id="scrollButton" class="test-0-nav-1 ">Акции</button></li>
+        <li><button id="scrollButton2" class="test-0-nav-2 ">Поиск</button></li>
+        <li><button id="scrollButton3" class="Contact ">Контакты</button></li>
+        <li class="space">        </li>
+        <li class="sign" align="center"><a href="login.html"><p class="test-0-nav-4"><b>Войти</b></p></a></li>
+      </ul>
+    </nav>
+  </header>
+  <div style="height: 100px;"></div>
+  </div>
+  <div id="slider">
+    <div class="slides">
+      <div class="slider">
+        <div class="legend"></div>
+        <div class="content">
+          <div class="content-txt">
+            <h1>Мы сближаем города, вы – живете там, где хотите</h1>
+            <h2>Кто не понял - у нас самые крутые самолеты</h2>
+          </div>
+        </div>
+        <div class="image">
+          <img src="../Media/png2.jpg">
+        </div>
+      </div>
+      <div class="slider">
+        <div class="legend"></div>
+        <div class="content">
+          <div class="content-txt">
+            <h1>Мы сближаем города, вы – живете там, где хотите</h1>
+            <h2>Кто не понял - у нас самые крутые самолеты</h2>
+          </div>
+        </div>
+        <div class="image">
+          <img src="../Media/png3.jpeg">
+        </div>
+      </div>
+      <div class="slider">
+        <div class="legend"></div>
+        <div class="content">
+          <div class="content-txt">
+            <h1>Мы сближаем города, вы – живете там, где хотите</h1>
+            <h2>Кто не понял - у нас самые крутые самолеты</h2>
+          </div>
+        </div>
+        <div class="image">
+          <img src="../Media/png2.jpg">
+        </div>
+      </div>
+      <div class="slider">
+        <div class="legend"></div>
+        <div class="content">
+          <div class="content-txt">
+            <h1>Мы сближаем города, вы – живете там, где хотите</h1>
+            <h2>Кто не понял - у нас самые крутые самолеты</h2>
+          </div>
+        </div>
+        <div class="image">
+          <img src="../Media/airplane.png">
+        </div>
+      </div>
+    </div>
+    <div class="switch">
+      <ul>
+        <li>
+          <div class="on"></div>
+        </li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </div>
+  </div>
+  
+  <div class="container" id="search-header">
+    <h1 align="center"> Бронирование билетов </h1>
+
+    <h2>Основные принципы работы сервиса: 
+</h2>
+    <h3>      1.	Выбрать удобную дату перелета.</h3><h3>
+      2.	Накопить больше 50% бронирований на рейс.</h3>
+     <h3> 3.	Получить снижение стоимости.
+      </h3>
+   <script src="../Script/script2.js"></script>
+    <form action="search.html" method="post">
+      <fieldset  style="background-color: rgb(208, 230, 255);"  >
+          <p align="center">Дата вылета<input type="date" required></p>
+          <p align="center">Откуда<select name="city" id="cities" required="required">
+            <option value="Kolomna">Коломна</option>
+            <option value="Zaraysk">Зарайск</option>
+            <option value="Nepetsino">Непецино</option>
+            <option value="Voskresensk">Воскресенск</option>
+            <option value="Ozera">Озера</option>
+            <option value="Podolsk">Подольск</option>
+          </select>
+          Куда<select name="city2" id="cities" required="required">
+
+            <option value="Kolomna">Коломна</option>
+            <option value="Zaraysk">Зарайск</option>
+            <option value="Nepetsino">Непецино</option>
+            <option value="Voskresensk">Воскресенск</option>
+            <option value="Ozera">Озера</option>
+            <option value="Podolsk">Подольск</option>
+          </select></p>
+        
+            <p align="center"><input type="checkbox" name="norobot"> есть животные</p>
+            <p align="center"> Сколько человек   <input type="number" placeholder="от 1 до 8 включительно" size="30" required="required"> </p>
+
+            <input type="submit" value="Искать" class="search">
+      </fieldset>
+    </form>
+    <div style="height: 100px;">
+    </div>
+    <script src="../Script/script.js"></script>
+    <br>
+    <div class="otzivi">
+      <p><b>Отзывы(6)</b></p>
+      <div class="otziv">
+          <img src="../Media/avatar.png">
+          <div class="otziv-chel">
+              <b>Даня Кашин</b>
+              <p>все круто</p>
+          </div>
+          <p class="ocenka">★★★★★</p>
+      </div>
+      <div class="otziv">
+          <img src="../Media/avatar.png">
+          <div class="otziv-chel">
+              <b>Артем Граф</b>
+              <p>ВСЕ К ДК</p>
+          </div>
+          <p class="ocenka">★★★★★</p>
+      </div>
+      <div class="otziv">
+          <img src="../Media/avatar.png">
+          <div class="otziv-chel">
+              <b>Неизвестный</b>
+              <p>Средненько</p>
+          </div>
+          <p class="ocenka">★★★☆☆</p>
+      </div>
+      <div class="otziv">
+          <img src="../Media/avatar.png">
+          <div class="otziv-chel">
+              <b>Фатеев Даниил</b>
+              <p>как аву сменить?</p>           
+          </div>
+          <p class="ocenka">★★★★☆</p>
+      </div>
+      <div class="otziv">
+          <img src="../Media/avatar.png">
+          <div class="otziv-chel">
+              <b>Мария</b>
+              <p>лучшая авиакомпания</p>             
+          </div>
+          <p class="ocenka">★★★★★</p>
+      </div>
+      <div class="otziv">
+          <img src="../Media/avatar.png">
+          <div class="otziv-chel">
+              <b>Аноним</b>
+              <p>я опоздал на рейс</p>          
+          </div>
+          <p class="ocenka">★☆☆☆☆</p>
+      </div>
+  </div>
+    <h1 id="main-header" align="center"> Акции </h1>
+    <script src="../Script/indexscript.js"></script>
+  </div>
+  <h2 align="center"> Подписаться на закрытые акции </h2>
+  <input type="email" id="emailInput" placeholder="Введите вашу почту">
+<button onclick="subscribe()">Подписаться</button>
+
+<script>
+function subscribe() {
+    let userEmail = document.getElementById('emailInput').value;
+    
+    if (userEmail.trim() === '') {
+        alert('Пожалуйста, введите корректный адрес электронной почты.');
+    } else {
+        // Добавить здесь код для обработки подписки, например, отправка на сервер
+        alert('Спасибо за подписку на акции!');
+    }
+}
+</script>
+<div class="sales">
+  <div class="container2">
+    <div class="images">
+      <img src="../Media/promotions/promotion1.jpg" />
+    </div>
+    <div class="product">
+      <p></p>
+      <h1>Returning and Changing Your Tickets</h1>
+      <h2>Бесплатно*</h2>
+      <p class="desc">The pandemic has changed many travelers’ plans, but we know that it will not last forever. 
+        Once all of this is over, we will continue exploring this world the way we used to. 
+        Special rules that have been developed for this challenging situation will help you cancel your trip
+        or postpone it until later.</p>
+      <div class="buttons">
+
+      </div>
+    </div>
+  </div>
+  <div class="container3">
+    <div class="images">
+      <img src="../Media/promotions/promotion2.jpg" style="width: 500px; height: 500px;">
+    </div>
+    <div class="product" style="width: 200px;">
+      <p></p>
+      <h1>Best offers</h1>
+      <h2>Бесплатно*</h2>
+      <p class="desc">To see again the streets that witnessed so much. To hug your beloved ones and look back to see
+        what you’ve come through. And to think of new dreams that will be so special!</p>
+    </div>
+  </div>
+  <div class="container3">
+    <div class="images">
+      <img src="../Media/promotions/promotion3.jpg" style="width: 500px; height: 500px;">
+    </div>
+    <div class="product" style="width: 200px;">
+      <p></p>
+      <h1>See you more often</h1>
+      <h2>Бесплатно*</h2>
+      <p class="desc">Since the beginning of January, we have been expanding the geography of flights in Russia so that you can
+        see your loved ones more often. Choose our company to fly to where you are always expected..</p>
+    </div>
+  </div>
+  
+  
+  <div class="container3">
+    <div class="images">
+      <img src="../Media/promotions/promotion4.jpg" style="width: 500px; height: 500px;">
+    </div>
+    <div class="product" style="width: 200px;">
+      <p></p>
+      <h1>Everything is on again</h1>
+      <h2>Бесплатно*</h2>
+      <p class="desc">From August 10, we will resume flights to Turkey. Flights from Moscow to Antalya will be operated twice
+        a day daily, and flights on the Moscow-Dalaman route will be operated three to seven times a week.</p>
+    </div>
+  </div>
+  </div>
+  
+
+  <div id="credits" >
+    <p ><a href="https://github.com/wwweibk" target="blank">2024</a></p> <a href="https://t.me/durowei" target="blank">Петрова Виктория </a> | <a href="https://" target="blank">42211</a></p>
+  </div>
+  <script src="../Script/script3.js"></script>
+  <footer id="contact-header">
+    <p align="center"> 8 (800) 100-10-10 Петрова Виктория Андреевна</p>
+  </footer>
+</body>
+</html>
